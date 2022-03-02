@@ -1,16 +1,36 @@
-<h1>Datos del usuario:</h1>
-<form>
-	Nombre: <input type="text" name="nombre" autocomplete="name" title="Nombre" required placeholder="Benito"/> <br/> <br/>
-	Apellidos: <input type="text" name="apellidos" autocomplete="family-name" title="Apellidos" required placeholder="Martinez"/> <br/> <br/>
-    Fecha nacimiento: <input type="date" name="fecha" autocomplete="bday"/> <br/> <br/>
-	E-mail: <input type="text" name="e-mail" autocomplete="email" title="E-mail" placeholder="benitomartinez@gmail.com"/> <br/> <br/>
-    Telefono: <input type="tel" name="telefono" autocomplete="tel" title="Telefono" placeholder="624691029"/> <br/> <br/>
-    Password: <input type="password" name="pass" autocomplete="off" required/> <br/> <br/>
-    Color: <input type="color" name="color" autocomplete="off"/> <br/> <br/>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario usuario</title>
+</head>
+<body>
+    <h1>Datos del usuario:</h1>
+<form action="">
+	<label for="nombre">Nombre:</label><br>
+    <input type="text" id,name="nombre" autocomplete="name" title="Nombre" required placeholder="Benito"/> <br/> <br/>
+
+	<label for="apellidos">Apellidos:</label><br>
+    <input type="text" id,name="apellidos" autocomplete="family-name" title="Apellidos" required placeholder="Martinez"/> <br/> <br/>
+
+    <label for="fecha">Fecha de nacimiento:</label><br>
+    <input type="date" id,name="fecha" autocomplete="bday"/> <br/> <br/>
+
+	<label for="e-mail">E-mail:</label><br>
+    <input type="text" id,name="e-mail" autocomplete="email" title="E-mail" placeholder="benitomartinez@gmail.com"/> <br/> <br/>
+
+    <label for="telefono">Telefono:</label><br>
+    <input type="tel" id,name="telefono" autocomplete="tel" title="Telefono" placeholder="624691029"/> <br/> <br/>
+
+    <label for="pass">Contraseña:</label><br>
+    <input type="password" id,name="pass" autocomplete="off" required/> <br/> <br/>
+
+    <label for="color">Color favorito:</label><br>
+    <input type="color" id,name="color" autocomplete="off"/> <br/> <br/>
 
     <input type="submit" value="Enviar"/>
 </form>
-
-
-<!--nombre, primer apellido, fecha de nacimiento, e-mail, teléfono, password y color
-favorito--> 
+</body>
+</html>
